@@ -1,0 +1,51 @@
+
+:root {
+    --primary-teal: #008080;
+    --light-teal: #E0FFFF;
+}
+
+.settings-menu {
+    background-color: var(--light-teal);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.settings-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.settings-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.settings-item i {
+    margin-right: 12px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.delete-account {
+    color: #dc3545;
+}
+
+.delete-account i {
+    color: #dc3545;
+}
+
+.modal-header {
+    background-color: var(--light-teal);
+}
+
+.modal-title {
+    color: var(--primary-teal);
+}
